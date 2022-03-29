@@ -1,0 +1,35 @@
+{
+  "name": "simple-repo-kit",
+  "version": "1.0.0",
+  "description": "对 simple-git API 进行简单封装, 提供一些常用功能",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "repository": "https://github.com/youngbrain1893/simple-repo-kit",
+  "author": "youngbrain1893@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "simple-git": "^3.2.6",
+    "typescript": "^4.6.2"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "package.json",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7"
+  },
+  "scripts": {
+    "build": "tsc index.ts -d"
+  },
+  "lint-staged": {
+    "**/*.ts": "eslint"
+  }
+}

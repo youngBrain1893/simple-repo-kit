@@ -1,0 +1,10 @@
+# system files
+.DS_Store
+
+# vscode .history
+.history
+
+node_modules
+
+index.js
+index.d.ts
